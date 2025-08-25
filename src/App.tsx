@@ -37,7 +37,7 @@ const mantineTheme = {
 function App() {
   return (
     <MantineProvider theme={mantineTheme}>
-      <Router>
+    <Router basename="/kafuis_collections_v2/">
         <div className="min-h-screen bg-off-white flex flex-col">
           <Navbar />
           <main className="flex-1">
